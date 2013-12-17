@@ -1,0 +1,1 @@
+pandoc -s -S --biblio biblio.bib --csl apa.csl -N -V geometry:margin=1in paper_v1.md -o paper.pdf
