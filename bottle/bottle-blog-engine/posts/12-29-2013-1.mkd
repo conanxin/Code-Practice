@@ -1,0 +1,10 @@
+title: A sample article
+author: conanxin
+date: 29/12/2013
+tags: [hello]
+
+This is my slug
+
+~
+
+And the end of the article.

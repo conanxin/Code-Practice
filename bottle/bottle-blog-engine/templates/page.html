@@ -1,0 +1,12 @@
+{% extends "templates/base.html" %}
+
+{% block title %}{{name|capitalize}}{% endblock %}
+{% block body %}
+    <article class="page">
+        {{content}}
+    </article>
+{% endblock %}
+
+{#
+ vim: ft=htmldjango
+#}

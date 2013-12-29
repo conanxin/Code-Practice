@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf8">
+        <title>{% block title %}BottlePy KISS Blog{% endblock %}</title>
+        <link rel="stylesheet" media="screen" type="text/css" href="/static/css/style.css"/>
+        {% block Head %}{% endblock %}
+	</head>
+    <body>
+        <div id="links">
+            <ul>
+                <li><a href="/archives">Archives</a></li>
+            </ul>
+        </div>
+        <header>
+            <h1><a href="/">Blog Name</a></h1>
+        </header>
+        {% block body %}
+        {% endblock %}
+        <div style="clear:both"></div>
+        <footer>
+        Powered by a wonderful duo<br><a href="https://github/Matael/bottle-blog-engine">bobe</a> & <a href="http://git-scm.com/">git</a><br> Thanks to them !
+        </footer>
+	</body>
+</html>
+
+{#
+ vim: ft=htmldjango
+#}
