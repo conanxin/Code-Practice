@@ -846,3 +846,5 @@ logout相对简单一些。利用Django的logout函数，它会删除session和l
 
 ###恭喜你
 你已经创建成功了。
+
+链接：[Building Ribbit in Django](http://net.tutsplus.com/tutorials/python-tutorials/building-ribbit-with-django/)
